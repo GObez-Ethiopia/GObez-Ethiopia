@@ -108,20 +108,24 @@
 
 
 .home{
-     background-color: #fcaf38;
+    background-color: #fcaf38;
      height: 100vh;
      display: flex;
      align-items: center;
      justify-content: center;
+     background: url("images/background.png") 750px 10px no-repeat;
 
      .container{
-        border: 1px solid #6d6d6d;
+
+        border: 0.25px solid #6d6d6d;
         border-radius: 10px;
         width: 70%;
         height: 80%;
         display: flex;
         overflow: hidden;
-        
+        opacity: .94;
+        position: relative;
+        left: 5%;;
         @include tablet{
             width: 90%;
         }
@@ -293,10 +297,10 @@
                 flex-direction: column;
                 gap: 10px;
                 p{
-                    background-color: #fcaf38;
+                    background-color: #8d39dbc4;
                     padding: 10px 20px;
                     border-radius: 0px 10px 10px 10px;
-                    color: #1e3143;
+                    color: rgb(230, 239, 247);
                     max-width: max-content;
 
                 }
@@ -311,10 +315,10 @@
                             .messageContent{
                                 align-items: flex-end;
                                 p{
-                                    background-color: #fcaf38;
+                                    background-color: #1b5ab8a6;
                                     padding: 10px 20px;
                                     border-radius: 10px 0px 10px 10px;
-                                    color: #f95335;
+                                    color: #ffffff;
                                     max-width: max-content;
                 
                                 }
